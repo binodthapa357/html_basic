@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit.php" method="POST">
+        
+        <label for="username">Username:</label>  <input type="text" placeholder="enter your username" id="username"><br> <br> <br>
+
+        <label for="password">Password:</label>  <input type="password" required id="password"> <br> <br>
+
+        Date: <input type="date"><br><br>
+        File: <input type="file"><br> <br>
+        Color: <input type="color"><br><br>
+        Price Range: <input type="range"><br><br>
+        Button: <input type="button" value="click me"><br><br>
+        <!--Radio Button-->
+        <label>Gender:</label> <br> <br>
+        <label for="male">Male: </label>
+        <input type="radio" value="male" name="gender" id="male">
+        <label for="female">Female: </label>
+        <input type="radio" value="Female" name="gender" id="female">
+        <label for="others">Others: </label>
+        <input type="radio" value="others" name="gender" id="others"> <br> <br>
+
+        <!--CheckBox-->
+        <label for="C">C:</label>
+        <input type="checkbox" value="C" name="program" id="C">
+        <label for="java">Java: </label>
+        <input type="checkbox" value="java" name="program" id="java">
+        <label for="python">Python: </label>
+        <input type="checkbox" value="python" name="program" id="python"> <br> <br>
+
+        <!--Select-->
+        <label for="country">Choose Your Country:</label>
+        <select name="country" id="country">
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select> <br> <br>
+
+        <!--Text Area-->
+        <textarea cols="30" rows="5">
+Write a feedback here.
+        </textarea> <br> <br>
+
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
